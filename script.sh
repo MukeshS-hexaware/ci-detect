@@ -1,4 +1,3 @@
-printenv
 if [[ "$CI" == "true" ]]; then
   echo "Script is running under CI";
  else
